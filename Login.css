@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body{
+    background-image: url(/BG.png);
+
+}
+.login-box{
+    font-family: 'Itim', cursive;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 500px;
+    height: 900px;
+    background-image: url(/Web.png);
+    border-radius: 10px;
+}
+.login-box p{
+    color: #653917;
+    font-size: 41px;
+    margin-left: 60px;
+}.login-box h1{
+    color: #653917;
+    font-size: 20px;
+    margin-left: 60px;
+}.login-box img{
+    display: block;
+    width: 300px; 
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.login-box label {
+    color: #653917;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    display: block; ; 
+    width: 70%;
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none; 
+}
+.placeholder{
+    font-size: 100px;
+}
+.login-box input{
+    font-size: 17px;
+    font-family: inherit;
+    text-align: center;
+}
+button{
+    font-family: inherit;
+    border-radius: 15px;
+}
+.login-box button[type="submit"] {
+    width: 73.5%;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #A16A40;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.login-box button[type="submit"]:hover {
+    background-color: #804E29; /* Change the background color of the submit button on hover */
+}
+.login-box h2{
+    color: #503019;
+    padding-top: 80px;
+    padding-left: 60px;
+    font-size: 20px;
+}
+.login-box a{
+    color: #A16A40;
+}

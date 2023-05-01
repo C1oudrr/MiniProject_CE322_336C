@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    font-family: 'Itim', cursive;
+    margin: 0;
+    padding: 0;
+    background-image:url(/BG.png) ;
+    
+}
+.header{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #FFF2CC;
+}
+.navbar {
+    height: 120px;
+    display: flex;
+    background-color: #FFD966;
+    color: #8F582E;
+    
+}
+.logo{
+    display: flex;
+    padding-left: 50px;
+    
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+ul li{
+    margin: 0 1rem;
+}
+ul li a{
+    color: #8F582E;
+    text-decoration: none;
+}
+.Main , .Menu ,.Contact ,.Bracket ,.Profile{
+    font-weight: bold;
+    display: inline-block;
+    margin-right:160px;
+    transition: 1s;
+
+}
+.menu-container {
+    position:absolute;
+    top: 20;
+    right: 0;
+    background-color: #FFF2CC;
+    width: 300px;
+    height: 90%;
+    padding-top: 20px;
+  }
+
+  .menu-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-container a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+  }
+
+.menucontainer {
+  max-width: 1200px;
+  padding-left: 140px;
+  padding-right: 10px;
+  margin: 0px;
+}
+.Paymentmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.box {
+  margin-top: 50px;
+  width: 1000px;
+  height: 700px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  border: none;
+}
+.box p{
+  padding-left: 25px;
+  font-size: 25px;
+}
+.Confirm{
+
+
+}
+.Discount{
+  font-family: inherit;
+  background-color: #FFD966;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  height: 50px;
+  margin-top: 600px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.box {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 22px; /* adjust the font size of the text */
+}
+.box {
+  position: relative;
+}
+
+.cost1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 62px;
+}
+button[type="Confirm"]{
+  font-family: inherit;
+  margin-left: 600px;
+  margin-top: 20px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: #FFD966;
+  border-radius: 10px;
+  color: #ffffff;
+}
